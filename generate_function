@@ -3,4 +3,4 @@
 rm infra/function.zip
 
 bundle install --path vendor/bundle
-zip -r infra/function.zip . -x "*infra*" "*.idea*"
+zip -r infra/function.zip . -x "*infra*" "*.idea*" "*.git*"
